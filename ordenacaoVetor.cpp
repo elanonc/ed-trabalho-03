@@ -52,7 +52,7 @@ void InsertionSortR(int vetor[], int tamanho){
     vetor[posicao+1] = fim; 
 }
 
-void SelectionSort(int vetor[], int tamanh){
+void SelectionSort(int vetor[], int tamanho){
     for (int i = 0; i < tamanho-1; i++) {
         int min = i;
         for (int j = i+1; j < tamanho; j ++)
@@ -144,7 +144,7 @@ void SacodeHeap(int m, int vetor[]){
     }
 }
 
-int HeapSort(int n, in vetor[]){
+int HeapSort(int n, int vetor[]){
     int m;
     for (m = 1; m < n; m++)
         InsereEmHeap (m, vetor);
