@@ -28,10 +28,10 @@ void BubbleSortR(){ // incompleto
 void InsertionSort(int vetor[], int tamanho){ // no pior caso será n²
     int x = 0;
     for (int j = 1; j < tamanho; j++){
-        x = v[j];
-        for (int i = j-1; i >= 0 && v[i] > x; i--){
-            v[i+1] = v[i];
-        v[i+1] = x;
+        x = vetor[j];
+        for (int i = j-1; i >= 0 && vetor[i] > x; i--){
+            vetor[i+1] = vetor[i];
+        vetor[i+1] = x;
         }
     }
 }
