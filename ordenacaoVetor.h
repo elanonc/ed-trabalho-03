@@ -2,7 +2,8 @@
 #define VETOR_H
 #include <vector>
 #include <iostream>
-struct Array; // Tipo no da arvore
+
+struct Array; // ...
  
 void ExibeArray(); // imprime o vetor
 
@@ -24,9 +25,7 @@ void MergeSort(); // metodo de ordenação "intercala" funciona em o(n lg n) no 
 
 void MergeSortR(); // metodo de ordenação "intercala" funciona em o(n lg n) no pior caso
 
-int InsereEmHeap(); // metodo para inser 		
-
-void SacodeHeap(); // ?
+void Sacode(); 
 
 void HeapSort(); // 
 
