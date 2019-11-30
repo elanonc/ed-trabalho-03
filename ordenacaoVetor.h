@@ -2,39 +2,41 @@
 #define VETOR_H
 #include <vector>
 #include <iostream>
-
 struct Array; // ...
- 
-void ExibeArray(); // imprime o vetor
 
-void BubbleSort(); // metodo de ordenação "bolha" funciona em o(n²) no pior caso
+class QX_List{
 
-void BubbleSortR(); // metodo de ordenação "bolha" funciona em o(n²) no pior caso
+	public:
+		void ExibeArray(); // imprime o vetor
 
-void InsertionSort(); // metodo de ordenação "inserção" funciona em o(n²) no pior caso  
+		void BubbleSort(); // metodo de ordenação "bolha" funciona em o(n²) no pior caso
 
-void InsertionSortR(); // metodo de ordenação "inserção" funciona em o(n²) no pior caso  
+		void BubbleSortR(); // metodo de ordenação "bolha" funciona em o(n²) no pior caso
 
-void SelectionSort(); // metodo de ordenação "seleção" funciona em o(n²) no pior caso  
+		void InsertionSort(); // metodo de ordenação "inserção" funciona em o(n²) no pior caso  
 
-void SelectionSortR(); // metodo de ordenação "seleção" funciona em o(n²) no pior caso  
+		void InsertionSortR(); // metodo de ordenação "inserção" funciona em o(n²) no pior caso  
 
-void Intercala(); // metodo auxiliar usado no algoritmo merge sort
+		void SelectionSort(); // metodo de ordenação "seleção" funciona em o(n²) no pior caso  
 
-void MergeSort(); // metodo de ordenação "intercala" funciona em o(n lg n) no pior caso
+		void SelectionSortR(); // metodo de ordenação "seleção" funciona em o(n²) no pior caso  
 
-void MergeSortR(); // metodo de ordenação "intercala" funciona em o(n lg n) no pior caso
+		void Intercala(); // metodo auxiliar usado no algoritmo merge sort
 
-void Sacode(); 
+		void MergeSort(); // metodo de ordenação "intercala" funciona em o(n lg n) no pior caso
 
-void HeapSort(); // 
+		void MergeSortR(); // metodo de ordenação "intercala" funciona em o(n lg n) no pior caso
 
-void HeapSortR(); 
+		void Sacode(); // altera
 
-int Separa();
+		void HeapSort(); // altera
 
-void QuickSort();
+		void HeapSortR(); // altera  
 
-void QuickSortR();
+		int Separa(); // a partir de um pivo, ele separa o vetor em dois
 
+		void QuickSort(); // ordena os vetores separadamente
+
+		void QuickSortR(); // ordena os vetores separadamente
+};
 #endif
